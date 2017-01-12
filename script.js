@@ -1,25 +1,6 @@
 $(document).ready(function() {
-	object = {algo: [{name: 101, url: "algo1.com"}, {name: 102, url: "algo2.com"}], ds: [{name: 201, url: "ds1.com"}, {name: 202, url: "ds2.com"}], linux: [{name: 301, url: "linux3.com"}, {name: 302, url: "linux3.com"}]}
 
-	Object.keys(object).map(function(level){
-		$('#jack').append('<div class="row-xs-4">\
-						<div class=\"panel panel-info">\
-							<div class="panel-heading">' + level +'</div>\
-								<div class="panel-body">\
-									<div class="list-group list-group-horizontal ' + level +'">\
-									</div>\
-								</div>\
-							</div>\
-						</div>\
-			')
-		object[level].map(function(hash){	
-			$('.'+ level).append('<div class="list-group-item"> ' + hash.name +'</div>');
-		})
-	})
-
-
-
-	object2 = {Frontend: [{name: "CSS", url: "css.com"}, 
+	object2 = {Frontend: [{name: "CSS", url: "css.com", data: "markdown text"}, 
 			  			  {name: "JavaScript", url: "javascript.com"},
 			  			  {name: "FontAwsome", url: "fontawsome.com"}],
 
@@ -49,5 +30,6 @@ $(document).ready(function() {
 
 	});
 
-
+	// $('#lesson').append(marked());
+	$('#lesson').append("marked data will go here.");
 });
