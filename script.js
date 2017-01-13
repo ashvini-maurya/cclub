@@ -11,25 +11,19 @@ $(document).ready(function() {
 			   			 {name: "Servers", url: "aws.com"}]
 			   }
 
-
-
-	//console.log(Object.keys(object2));
-	
-
 	Object.keys(object2).map(function(tech){
-		//console.log(tech);
 		$('#syllabus').append('<li data-toggle="collapse" data-target="#' + tech +'" class="collapsed">\
 					<a href="#"><i class="fa fa-lg ">' +  tech +'</i></a>\
 					<ul class="sub-menu collapse ' +  tech + '" id="' + tech + '"></ul>\
 		')
 
 		object2[tech].map(function(value) {
-			//console.log(value.name);
-			$('.' + tech).append('<li><a href=' + value.url + '>' + value.name + '</li>');
+			$('.' + tech).append('<li class="subheading" data-url=' + value.url + '>' + value.name + '</li>');
 		});
 
 	});
 
-	// $('#lesson').append(marked());
-	$('#lesson').append("marked data will go here.");
+    $('.subheading').on('click', function(){
+        $('#lesson').html("marked data will go here.");
+    })
 });
