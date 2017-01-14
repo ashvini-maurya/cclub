@@ -1,8 +1,10 @@
 # cclub
 
 1. install json-server with "npm install -g json-server"
-2. Create a .json file. ex- db.json
-3. start the json server by "json-server --watch db.json"
+2. We are mocking our API. 
+
+How to start mocking server:-
+	json-server --watch mocks/mock.json
 
 How to add content (for now...)
 =======================
