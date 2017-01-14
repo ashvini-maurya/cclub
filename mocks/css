@@ -1,0 +1,12 @@
+CSS
+=======
+ 
+A CSS file separates your web sites HTML content from it’s style.
+
+### Internal Stylesheet
+
+Simply placing the CSS code within the <head></head> tags of each (X)HTML file you want to style with the CSS.
+
+### External Stylesheet
+A CSS file contains no (X)HTML, only CSS.
+<link rel=”stylesheet” type=”text/css” href=“Path To stylesheet.css” />
