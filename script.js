@@ -14,11 +14,13 @@ $(document).ready(function() {
                 $('.' + tech).append('<li class="subheading" data-url=' + value.url + '>' + value.name + '</li>');
             });
 
-            $('.subheading').on('click', function(){
-                url = $(this).data('url');
-                $('#lesson').html("marked data will go here.");
-            })
 	    });
+        $('.subheading').on('click', function(){
+            end_point = $(this).data('url');
+            $.getJSON(url + end_point, function(data){
+                $('#lesson').html(marked(data['lesson']));
+            })
+        })
     });
 });
 
