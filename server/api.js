@@ -24,6 +24,7 @@ module.exports = function(wagner) {
 					status(status.NOT_FOUND).
 					json({error: 'Not Found'});
 				}
+				res.json({user: user});
 			});
 		};
 	}));
