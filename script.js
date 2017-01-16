@@ -21,6 +21,9 @@ $(document).ready(function() {
                 $('#lesson').html(marked(data['lesson']));
             })
         })
+        $('#faq').on('click', function(){
+        	$('#lesson').html(marked("pages/faq"));
+        });
     });
 });
 

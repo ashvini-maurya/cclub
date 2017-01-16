@@ -10,7 +10,9 @@
 			{"name": "Basic servers", "url": "basicservers"}],
 
 	"Backend": [{"name": "DataBase", "url": "database"}, 
-			  {"name": "Servers", "url": "backend_servers"}]
+			  {"name": "Servers", "url": "backend_servers"}],
+
+	"FAQ": [{"name": "FAQ", "url": "faq"}]
 	},
 
 
@@ -21,5 +23,7 @@
 	"basicservers": {"lesson": "Servers\n=======\n\nA server is a computer program that provides services to other computer programs  in the same or other computers.\n"},
 	"database": {"lesson": "Database\n=======\n\nA database is a collection of information that is organized so that it can easily be accessed, managed, and updated."},
 	"backend_servers": {"lesson": "Back-end\n=======\n\nA \"back-end\" application or program serves indirectly in support of the front-end services, usually by being closer to the required resource or having the capability to communicate with the required resource. The back-end application may interact directly with the front-end or, perhaps more typically, is a program called from an intermediate program that mediates front-end and back-end activities." },
-    "check": { "lesson": "Heading\n=======\n\nSub-heading\n-----------\n \n### Another deeper heading\n \nParagraphs are separated\nby a blank line.\n\nLeave 2 spaces at the end of a line to do a  \nline break\n\nText attributes *italic*, **bold**, \n`monospace`, ~~strikethrough~~ .\n\nShopping list:\n\n  * apples\n  * oranges\n  * pears\n\nNumbered list:\n\n  1. apples\n  2. oranges\n  3. pears\n\nThe rain---not the reign---in\nSpain.\n\n *[Herman Fassett](https://freecodecamp.com/hermanfassett)*" }
+    "check": { "lesson": "Heading\n=======\n\nSub-heading\n-----------\n \n### Another deeper heading\n \nParagraphs are separated\nby a blank line.\n\nLeave 2 spaces at the end of a line to do a  \nline break\n\nText attributes *italic*, **bold**, \n`monospace`, ~~strikethrough~~ .\n\nShopping list:\n\n  * apples\n  * oranges\n  * pears\n\nNumbered list:\n\n  1. apples\n  2. oranges\n  3. pears\n\nThe rain---not the reign---in\nSpain.\n\n *[Herman Fassett](https://freecodecamp.com/hermanfassett)*" },
+    
+    "faq": {"lesson": "Who are we?\n-----------\n \nWe are a group of folks (mainly KIET Alumni) who are working as Software developers, Product Managers, DevOps in companies like Nutanix, HackerRank, Visa and many more, we are passionate about Mentoring and sharing knowledge.\n\n\nWhat is this?\n-----------\nThis is a platform for mentoring and guiding students in a procedural way for folks who are either stuck or not able to make decisions or too dazzled with the no of options.\n\n\nWhy we are doing this?\n-----------\nWe know that you can\u2019t get much out of curriculum, it is not fault of our college. What we have in our curriculum, is required 10 years ago in industry. And being in the industry for 2-5 years, we can tell you what are the hottest skills required.\n\n\nWhat we will be doing?\n-----------\nWe can guide you in a way so that you can make best out of the college. We will tell you what are the possibilities out there, what to study, from where to study.\n\n\nWhat not to ask from us?\n-----------\nReferring you just because you are not getting any job, \n\tShould go in TCS or try to get into Startup?,\n\tIs working with a startup is a good idea or not?\n\n"}
 }
