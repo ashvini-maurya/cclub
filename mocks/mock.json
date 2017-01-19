@@ -6,8 +6,8 @@
 		{"name": "FontAwsome", "url": "fontawsome"},
         {"name": "Check", "url": "check"}],
 
-	"Linux": [{"name": "Bash", "url": "bash"},
-			{"name": "Basic servers", "url": "basicservers"}],
+	"Linux": [{"name": "Basic_Linux", "url": "basic_linux"},
+			{"name": "Basic_Networking", "url": "basic_networking"}],
 
 	"Backend": [{"name": "DataBase", "url": "database"}, 
 			  {"name": "Servers", "url": "backend_servers"}],
@@ -21,8 +21,8 @@
 	"css": {"lesson": "CSS\n=======\n\nA CSS file separates your web sites HTML content from it\u2019s style.\n\n### Internal Stylesheet\n\nSimply placing the CSS code within the <head></head> tags of each (X)HTML file you want to style with the CSS.\n\n### External Stylesheet\nA CSS file contains no (X)HTML, only CSS.\n<link rel=\u201Dstylesheet\u201D type=\u201Dtext/css\u201D href=\u201CPath To stylesheet.css\u201D />"},
 	"javascript": {"lesson": "JavaScript\n=======\n\n  \nJavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language. \n" },
 	"fontawsome": {"lesson": "FontAwsome\n=======\n\n  \nFont Awesome icons library provides scalable vector icons. Originally designed for Bootstrap, these icons can be customized easily." },
-	"bash": {"lesson": "Bash\n=======\n\nBash scripts are used by Systems Administrators, Programmers, Network Engineers, Scientists and just about anyone else who uses a Linux/ Unix system regularly.\n" },
-	"basicservers": {"lesson": "Servers\n=======\n\nA server is a computer program that provides services to other computer programs  in the same or other computers.\n"},
+	"basic_linux": {"lesson": "Basic Linux Tasks:\n==========================\n1. Install Ubuntu.\n2. Use and understand the following commands:\n       ls, ll, cd, mkdir, pwd, mv, cp, apt-get, cat, date, grep, less, man, passwd, ifconfig, ping, netstat, nslookup, wget, sudo, tar, top, uname, wc, chmod, chown, df\n3. Using applications (browser, terminal, text editor, etc)\n4. Installing VLC, Chrome only using terminal.\n5. Go through following links:\n        https://www.linode.com/docs/tools-reference/linux-users-and-groups\n        http://www.tldp.org/LDP/intro-linux/html/sect_04_02.html\n6. Creating a new user, new groups, change the home directory of user, adding user to different groups by Cli.\n7. Try and figure out what is **SSH** and how to use it."},
+	"basic_networking": {"lesson": "Basic Networking Tasks:\n=====================\n\n1. Understand the following terms:\n       IP Address, Subnet, Netmask, Loopback, Broadcast, Hostname, Mac Address, Packet\n2. Read up on TCP/IP model and learn what each layer do.\n3. Get a basic understanding of how DHCP, DNS works.\n4. Figure out how hostname to IP Address resolution happens.\n5. Figure out how packet got routed from one machine in a network to another machine.\n6. What are certificates and get basic idea about SSL."},
 	"database": {"lesson": "Database\n=======\n\nA database is a collection of information that is organized so that it can easily be accessed, managed, and updated."},
 	"backend_servers": {"lesson": "Back-end\n=======\n\nA \"back-end\" application or program serves indirectly in support of the front-end services, usually by being closer to the required resource or having the capability to communicate with the required resource. The back-end application may interact directly with the front-end or, perhaps more typically, is a program called from an intermediate program that mediates front-end and back-end activities." },
     "check": { "lesson": "Heading\n=======\n\nSub-heading\n-----------\n \n### Another deeper heading\n \nParagraphs are separated\nby a blank line.\n\nLeave 2 spaces at the end of a line to do a  \nline break\n\nText attributes *italic*, **bold**, \n`monospace`, ~~strikethrough~~ .\n\nShopping list:\n\n  * apples\n  * oranges\n  * pears\n\nNumbered list:\n\n  1. apples\n  2. oranges\n  3. pears\n\nThe rain---not the reign---in\nSpain.\n\n *[Herman Fassett](https://freecodecamp.com/hermanfassett)*" },
