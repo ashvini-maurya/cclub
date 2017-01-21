@@ -10,6 +10,7 @@ var http = require('http').Server(app);
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 var path = require('path');
+var routes = require('./routes');
 var db;
 
 if (process.env.ENV == 'production') {
@@ -21,6 +22,7 @@ if (process.env.ENV == 'production') {
 var app = express();
 
 require('./models');
+app.use('/', routes);
 
 var port = process.env.PORT || 3000;
 
