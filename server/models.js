@@ -6,7 +6,8 @@
 
  var mongoose = require('mongoose');
  
- module.exports = function(wagner) { 
+ module.exports = function(wagner) {
+ 		mongoose.Promise = global.Promise;
 		mongoose.connect('mongodb://localhost:27017/cclub');
 		
 		var User = mongoose.model('User', require('./user'), 'users');
