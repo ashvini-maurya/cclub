@@ -46,7 +46,8 @@ module.exports = function(wagner) {
 	 *		"full_name": "Harshit Chaudhary",
 	 *		"role": "user",
 	 *		"levels": ["php", "yii2"]
-	 *	}' "http://localhost:3000/api/v1/user/" 
+	 *	}' "http://localhost:3000/api/v1/user/"
+	 * @returns  {Object} Returns Json object either with success message or User Schema validation errors
 	 */
 
 	api.post('/user/', wagner.invoke(function(User) {
